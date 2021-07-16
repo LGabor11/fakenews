@@ -1,0 +1,78 @@
+h1{
+color:yellow;
+background-color:#333;
+display:inline-block;
+}
+h3{
+color:yellow;
+background-color:black;
+}
+figcaption{
+color:yellow;
+background-color:#333;
+}
+body{
+background-color:#333;
+width:70%;
+margin:auto;
+color:white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+  color: yellow;
+  background-color: #111;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr 0.5fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "title title title title title"
+    "box1 space box2 space2 box3"
+    "box1 space box2 space2 box3";
+}
+
+.box1 { grid-area: box1; }
+
+.box2 { grid-area: box2; }
+
+.box3 { grid-area: box3; }
+
+.space { grid-area: space; }
+
+.space2 { grid-area: space2; }
+
+.title { grid-area: title; }
+
+footer a:hover{
+color:yellow;
+}
+footer a {
+color:white;
+}
+
+h3 a {
+color:yellow;
+}
